@@ -5,6 +5,7 @@ const { body, validationResult } = require('express-validator/check');
 
 const router = express.Router();
 const Registration = mongoose.model('Registration');
+const GolfHole = mongoose.model('GolfHole');
 
 router.post('/', 
     [
